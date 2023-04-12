@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="keywords" content="JS, JavaScript, Tabuada com JavaScript" />
+    <meta
+      name="description"
+      content="Uma página web que o usuário pode gerar até 10 tabuadas com JavaScript"
+    />
+    <meta name="author" content="Josué Lustosa" />
+
+    <title>Atividade 02 - Tabuada com JS</title>
+
+    <link rel="stylesheet" href="./tabuada.css" />
+    <script src="./tabuada.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Gerador de Tabuada com JavaScript</h1>
+    </header>
+
+    <hr />
+
+    <!-- Inputs para gerar tabuada -->
+    <form>
+      <label for="input-quant">Quantidade de Tabuadas (Máx. 10):</label>
+      <input
+        type="number"
+        class="input-quant"
+        name="input-quant"
+        id="quant-tabuada"
+        value="0"
+        min="0"
+        max="10"
+      />
+
+      <button type="button" id="button-gerar" class="button-gerar" onclick="">
+        Gerar
+      </button>
+    </form>
+
+    <!-- Renderização da(s) tabuada(s) -->
+    <main class="container-tabuada">
+      <div class="card-tabuada">
+        <h2 class="numero-tabuada">1</h2>
+        <ul>
+          <li>1 x 1 = 1</li>
+          <li>2 x 1 = 2</li>
+          <li>3 x 1 = 3</li>
+          <li>4 x 1 = 4</li>
+          <li>5 x 1 = 5</li>
+          <li>6 x 1 = 6</li>
+          <li>7 x 1 = 7</li>
+          <li>8 x 1 = 8</li>
+          <li>9 x 1 = 9</li>
+          <li>10 x 1 = 10</li>
+        </ul>
+      </div>
+    </main>
+
+    <hr />
+
+    <footer>FOOTER AQUI</footer>
+  </body>
+</html>
