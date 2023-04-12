@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="keywords"
+      content="JS, JavaScript, JavaScript externo, JavaScript no head, JavaScript no body"
+    />
+    <meta
+      name="description"
+      content="Uma página web que apresenta as três formas de usar JavaScript em um arquivo HTML"
+    />
+    <meta name="author" content="Josué Lustosa" />
+
+    <title>Atividade 01 - Formas de usar o JavaScript</title>
+
+    <script>
+      function myFunction1() {
+        document.getElementById('p1').innerHTML = `JavaScript no Head`;
+      }
+    </script>
+  </head>
+  <body>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+
+    <button type="button" onclick="myFunction1()">Ativar JS no Head</button>
+    <button type="button" onclick="myFunction2()">Ativar JS externo</button>
+
+    <script>
+      document.getElementById('p2').innerHTML = `JavaScript no Body`;
+    </script>
+
+    <script src="atv-01.js"></script>
+  </body>
+</html>
