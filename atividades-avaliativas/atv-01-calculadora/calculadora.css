@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+form {
+  margin: 20px;
+}
+
+.elementos-calculo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto-itens {
+  margin: 10px 10px;
+}
+
+.texto-selecionar {
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin: 0px 10px;
+  padding: 6px 6px;
+}
