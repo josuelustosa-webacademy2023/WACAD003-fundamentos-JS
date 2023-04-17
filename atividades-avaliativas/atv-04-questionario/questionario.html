@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="keywords" content="JS, JavaScript, questionário com JavaScript" />
+  <meta name="description"
+    content="Uma página web de um questionário que informa o valor da nota do usuário com JavaScript" />
+  <meta name="author" content="Josué Lustosa" />
+
+  <title>Atividade 04 - Questionário Calcular Nota</title>
+
+  <script src="./questionario.js"></script>
+</head>
+
+<body>
+  <h1>Quiz: Copa Conmebol Libertadores</h1>
+  <form>
+    1. Qual o maior campeão da Conmebol Libertadores?
+    <br>
+    <input type="radio" name="perg1" value="Flamengo" required> Flamengo
+    <input type="radio" name="perg1" value="Independiente" required> Independiente (ARG)
+
+    <br>
+    <br>
+
+    2. Quem foi o primeiro campeão da Conmebol Libertadores?
+    <br>
+    <input type="radio" name="perg2" value="Boca Juniors" required> Boca Juniors
+    <input type="radio" name="perg2" value="Penarol" required> Peñarol (URU)
+
+    <br>
+    <br>
+
+    3. Qual o maior artilheiro da Conmebol Libertadores?
+    <br>
+    <input type="radio" name="perg3" value="Neymar Jr" required> Neymar Jr
+    <input type="radio" name="perg3" value="Alberto Spencer" required> Alberto Spencer
+
+    <br>
+    <br>
+
+    4. Quais os maiores artilheiros <em>brasileiros</em> da Conmebol Libertadores?
+    <br>
+    <input type="radio" name="perg4" value="Neymar Jr e Gabigol" required> Neymar Jr e Gabigol
+    <input type="radio" name="perg4" value="Gabigol e Luizao" required> Gabigol e Luizão
+
+    <br>
+    <br>
+
+    5. Quantos títulos da Conmebol Libertadores ao total tem os clubes brasileiros?
+    <br>
+    <input type="radio" name="perg5" value="21" required> 21
+    <input type="radio" name="perg5" value="25" required> 25
+
+    <br>
+    <br>
+
+    <input type="submit" value="Enviar" onclick="enviarForm()">
+  </form>
+</body>
+
+</html>
